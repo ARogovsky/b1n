@@ -1,0 +1,206 @@
+.canvas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+  }
+
+  .unit {
+    fill: none;
+    stroke-width: 10;
+  }
+  
+  .unit:nth-child(1) {
+    stroke: #00cd9c;
+    stroke-dasharray: 20 100;
+  }
+  
+  .unit:nth-child(2) {
+    stroke: #15a0c1;
+    stroke-dasharray: 13 100;
+    stroke-dashoffset: -20;
+    stroke-width: 6px;
+  }
+  
+   .unit:nth-child(3) {
+    stroke: #a4ccd6;
+    stroke-dasharray: 20 100;
+   stroke-dashoffset: -33;
+  }
+  .unit:nth-child(4) {
+    stroke: #5cbae0;
+    stroke-dasharray: 11 100;
+   stroke-dashoffset: -53;
+   stroke-width: 6px;
+  }
+ .unit:nth-child(5) {
+    stroke: #808080;
+    stroke-dasharray: 20 100;
+   stroke-dashoffset: -64;
+  }
+  .unit:nth-child(6) {
+    stroke: #a1c7d0;
+    stroke-dasharray: 16 100;
+   stroke-dashoffset: -84;
+   stroke-width: 6px;
+  }
+
+ input{
+   opacity: 0.7;
+ }
+ #card:hover{
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  border-radius: 10px;
+ }
+ #card{
+   margin-top: 10px;
+   border-radius: 10px;
+   
+ }
+
+ #cardGradient{
+  background: linear-gradient(45deg, #a9d5d4, #f9fdfe);
+  margin-top: 10px;
+   border-radius: 10px;
+ }
+ 
+ 
+ #adds {
+  z-index: 99999;
+  display: none;
+  width: 30%;
+  border: 1px solid gray;
+  border-radius: 10px;
+  background-color: white;
+  position: absolute;
+  top: 15%;
+  left: 35%;
+  position: fixed;
+  box-shadow: 0 0 10px rgba(40, 53, 78);
+}
+
+
+#sect {
+  z-index: 99999;
+  display: none;
+  width: 30%;
+  border: 1px solid gray;
+  border-radius: 10px;
+  background-color: white;
+  position: absolute;
+  top: 15%;
+  left: 35%;
+  position: fixed;
+  box-shadow: 0 0 10px rgba(40, 53, 78);
+}
+
+#sect1 {
+  z-index: 99999;
+  display: none;
+  width: 30%;
+  border: 1px solid gray;
+  border-radius: 10px;
+  background-color: white;
+  position: absolute;
+  top: 15%;
+  left: 35%;
+  position: fixed;
+  box-shadow: 0 0 10px rgba(40, 53, 78);
+}
+#sect2 {
+  z-index: 99999;
+  display: none;
+  width: 30%;
+  border: 1px solid gray;
+  border-radius: 10px;
+  background-color: white;
+  position: absolute;
+  top: 15%;
+  left: 35%;
+  position: fixed;
+  box-shadow: 0 0 10px rgba(40, 53, 78);
+}
+
+#sect button{
+  width: 100%; 
+  min-height: 60px;
+  margin-top: 5px;
+  border-radius: 20px;
+}
+#sect1 button{
+  width: 100%; 
+  min-height: 60px;
+  margin-top: 5px;
+  border-radius: 20px;
+}
+#sect2 button{
+  width: 100%; 
+  min-height: 60px;
+  margin-top: 5px;
+  border-radius: 20px;
+}
+
+.unit1 {
+  fill: none;
+  stroke-width: 10;
+}
+
+.unit1:nth-child(1) {
+  stroke: #808080;
+  stroke-dasharray: 70 100;
+  stroke-width: 6px;
+}
+
+.unit1:nth-child(2) {
+  stroke: #cadee9;
+  stroke-dasharray: 30 100;
+  stroke-dashoffset: -70;
+  opacity: 0.7;
+}
+
+#exampleFormControlTextarea1{
+  opacity: 0.6;
+}
+
+#message{
+  display: none;
+  z-index: 99999;
+  width: 30%;
+  border: 3px solid rgb(9, 139, 214);
+  border-radius: 10px;
+  background-color: white;
+  position: absolute;
+  top: 30%;
+  left: 35%;
+  position: fixed;
+  box-shadow: 0 0 10px rgba(40, 53, 78);
+}
+
+#verify {
+  z-index: 99999;
+  display: none;
+  width: 20%;
+  border: 1px solid gray;
+  border-radius: 10px;
+  background-color: white;
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  position: fixed;
+  box-shadow: 0 0 10px rgba(40, 53, 78);
+}
+
+
+#activate1{
+  display: none;
+  z-index: 99999;
+  width: 25%;
+  border: 1px solid gray;
+  border-radius: 10px;
+  background-color: white;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  position: fixed;
+  box-shadow: 0 0 10px rgba(40, 53, 78);
+}
