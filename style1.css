@@ -232,3 +232,8 @@
   position: fixed;
   box-shadow: 0 0 10px rgba(40, 53, 78);
 }
+
+#pageName{
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-transform: uppercase;
+}
