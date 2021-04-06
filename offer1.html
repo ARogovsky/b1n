@@ -111,7 +111,7 @@
                 </div>
 
                 <div class="row">
-                    <button type="submit" class="btn" style="border-radius: 20px; background-color: #5fb8e0; color: white; width: 95%; margin-top: 40px;">Поиск исполнителя</button>
+                    <button type="submit" id="sub" class="btn" style="border-radius: 20px; background-color: #5fb8e0; color: white; width: 95%; margin-top: 40px;">Поиск исполнителя</button>
                 </div>
               </div>
               <div class="col text-center">
@@ -275,6 +275,47 @@
           </div>
       </div>
 <footer style="height: 25px;"></footer>
+
+
+<div class="cont " id="messageOff" >
+    <div class="container">
+            <div class="row" style="margin-top: 10px;">
+                
+                <div class="col-2">
+                    <img src="img/png-clipart-check-mark-computer-icons-others-miscellaneous-angle 3.png" style="margin-left: 25%;" width="30px" height="30px" alt="">
+                </div>
+                <div class="col-7"><span style="font-weight: 600;">Поздравляем!</span></div>
+            </div>
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-9"> <span style="font-weight: 600;">Информация по
+                    вашему предложению 
+                    сохранена в нашей системе.</span> </div>
+                <div class="col-1"></div>
+            </div><br>
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-9"> <span style="font-weight: 600;">Чтобы отправить ее, пожалуйста
+                    авторизируйтесь.</span> </div>
+                <div class="col-1"></div>
+            </div>
+            <div class="container" style="width: 80%; margin-left: 35px; margin-top: 10px;">
+                <div class="col">
+                    <a href="register.html">
+                        <button class="btn btn-outline-primary" style="border-radius: 20px; width: 100%;">Авторизация</button>
+                    </a>
+                    
+                </div>
+            </div>
+            
+    </div>
+    <footer style="height: 15px"></footer>
+</div>
       
+<script>
+$('#sub').on('click', function(){
+    $('#messageOff').fadeIn(100)
+})
+</script>
 </body>
 </html>

@@ -176,6 +176,20 @@
   box-shadow: 0 0 10px rgba(40, 53, 78);
 }
 
+#messageOff{
+  display: none;
+  z-index: 99999;
+  width: 30%;
+  border: 3px solid rgb(9, 139, 214);
+  border-radius: 10px;
+  background-color: white;
+  position: absolute;
+  top: 30%;
+  left: 35%;
+  position: fixed;
+  box-shadow: 0 0 10px rgba(40, 53, 78);
+}
+
 #verify {
   z-index: 99999;
   display: none;
@@ -201,6 +215,20 @@
   position: absolute;
   top: 30%;
   left: 40%;
+  position: fixed;
+  box-shadow: 0 0 10px rgba(40, 53, 78);
+}
+
+#choose{
+  z-index: 99999;
+  display: none;
+  width: 25%;
+  border: 1px solid gray;
+  border-radius: 10px;
+  background-color: white;
+  position: absolute;
+  top: 10%;
+  left: 37%;
   position: fixed;
   box-shadow: 0 0 10px rgba(40, 53, 78);
 }

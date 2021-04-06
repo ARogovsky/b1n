@@ -110,7 +110,7 @@
                    
                         <div class="row">
                             <div class="col">
-                                <button type="submit" class="btn" style="border-radius: 20px; background-color: #5fb8e0; color: white; width: 100%; margin-top: 15px;">Разместить</button>
+                                <button type="submit" id="addFull" onclick="event.preventDefault()" class="btn" style="border-radius: 20px; background-color: #5fb8e0; color: white; width: 100%; margin-top: 15px;">Разместить</button>
                             </div>
                         </div>
                 </form>
@@ -122,5 +122,53 @@
       </div>
 <footer style="height: 25px;"></footer>
       
+
+
+<div class="cont " id="choose" >
+    <div class="container">
+            <div class="row" style="margin-top: 10px;">
+                
+                <div class="col-2">
+                    <img src="img/png-clipart-check-mark-computer-icons-others-miscellaneous-angle 3.png" style="margin-left: 25%;" width="30px" height="30px" alt="">
+                </div>
+                <div class="col-7"><span style="font-weight: 600;">Поздравляем!</span></div>
+            </div>
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-9"> <span style="font-weight: 600;">Информация по вашему обьявлению сохранена в нашей системе.</span> </div>
+                <div class="col-1"></div>
+            </div><br>
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-9"> <span style="font-weight: 600;">Ви можете опубликовать обьявление как пользователь системи(для этого 
+                    требуется авторизация).Или публикация без авторизации, как непривилегированный пользователь(публикацыя части 
+                    объявления, которая не содержыт Ваших контактных данных. Информация по обьявлению будет приходить Вам на ел.почту.</span> </div>
+                <div class="col-1"></div>
+            </div>
+            <div class="container" style="width: 80%; margin-left: 35px; margin-top: 10px;">
+                <div class="col">
+                    <a href="addSearch.html">
+                        <button class="btn btn-outline-primary" style="border-radius: 20px; width: 100%;">Авторизация</button>
+                    </a>
+                    
+                </div>
+            </div>
+            <div class="container" style="width: 80%; margin-top: 10px;">
+                <div class="col">
+                    <a href="addUnreg.html">
+                        <button class="btn btn-outline-primary" style="border-radius: 20px; width: 100%;">Публикация без авторизации</button>
+                    </a>
+                    
+                </div>
+            </div>
+    </div>
+    <footer style="height: 10px;"></footer>
+</div>
+
+<script>
+    $('#addFull').on('click', function(){
+        $('#choose').fadeIn(100)
+    })
+</script>
 </body>
 </html>
